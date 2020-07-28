@@ -1,0 +1,205 @@
+
+@media (max-width: 700px)
+{
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: auto;
+
+   
+    }
+    .cards .card img{
+        width: 100%;
+        height: 350px;
+        border-radius: 15px 15px 0 0;
+        box-shadow: 4px 4px 10px 1.5px;
+        object-fit: fill;
+    }
+    form .field-group{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    form .field-group .field + .field{
+        margin-left: 0;
+        
+    }
+    form .field{
+        width: 100%;
+
+    }
+
+}
+@media(max-width:550px)
+{
+    form {
+        padding: 40px;
+    }
+    form h1{
+        text-align: center;
+    }
+    form legend #dados-entidade {
+        font-size: 1.7rem;
+    }
+    .items-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 180px;
+    }
+    .items-grid li{
+        text-align: center;
+    }
+    form button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        width: auto;
+    }
+    form legend#coleta-de-itens{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    form legend#coleta-de-itens h2 {
+        font-size: 33px;
+    }
+}
+@media(max-width: 400px)
+{
+    #page-creat-point header,
+    #page-search-results header
+    {
+        flex-direction: column;
+    }
+    #page-creat-point header a,
+    #page-search-results header a
+    {
+        padding-top: 30px;
+    }
+
+}
+@media (max-width: 359px){
+    body{
+        overflow-y: hidden;
+    }
+    #page-home{
+        background-position-x: 2000vw;
+    }
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+    #page-home header a {
+        visibility: hidden;
+        display: none;
+    
+    }
+    .newButton{
+        display: flex;
+        visibility: visible;
+    }
+   
+    #page-home main {
+        align-items: center;
+    }
+    #page-home main h1{
+        font-size: 45px;
+    }
+    #page-home main p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #page-home main a{
+        margin-top: 10px;
+        margin-bottom: 43px;
+        height: 50px;
+    }
+    #page-home main a span{
+        height: 50px;
+    }
+    .notfound
+    {
+        width: 95%;
+    }
+    .notfound > h1{
+        font-size: 1.7rem;
+    }
+    .notfound img{
+        width: 300px;
+    }
+}
+@media (min-width:360px) and (max-width: 500px){
+    #page-home{
+        background-position-x: 2000vw;
+    }
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+    #page-home header a {
+       display: none;
+       visibility: hidden;
+    }
+    .newButton{
+        display: flex;
+        visibility: visible;
+    }
+   
+    #page-home main {
+        align-items: center;
+    }
+    #page-home main a{
+        margin-top: 5%;
+        margin-bottom: 43px;
+     
+    }
+
+} 
+@media (min-width:501px) and (max-width: 970px)
+{
+    #page-home{
+        background-position-x: 2000vw;
+    }
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+    #page-home header a {
+
+        visibility: hidden;
+        display: none;
+    }
+    .newButton{
+        display: flex;
+        visibility: visible;
+    }
+   
+
+    #page-home main {
+        align-items: center;
+    }
+}
+@media (min-width: 971px) and (max-width: 1120px)
+{
+    #page-home{
+        background-position-x: 27vw;
+    }
+
+    #page-home main{
+        max-width: 505px;
+        align-items: center;
+    }
+    #page-home main h1{
+        text-align: center;
+    }
+    #page-home main p{
+        text-align: center;
+    };
+}
+@media (min-width: 2000px)
+{
+    #page-home{
+        background-position-x: 42vw;
+    }
+}

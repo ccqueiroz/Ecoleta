@@ -1,0 +1,27 @@
+:root{
+    --title-color:#322153;
+    --prime-color:#34cb79;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    -webkit-font-smoothing: antialiased;
+    /*background-image: linear-gradient(to bottom, #fff, #eaafc8, #654ea3, #4A00E0 );*/
+    background-color: #f0f0f0;
+}
+li{
+    list-style: none;
+}

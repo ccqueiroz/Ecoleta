@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+{% set pageId = "page-search-results" %}
+{% block title %}
+    <title>Pontos de Coletas</title>
+{% endblock title %}
+
+{% block styles %}
+    <link rel="stylesheet" href="css/search-results.css">
+{% endblock styles %}
+
+{% block content %}
+    <!--INCLUSÃO DE BLOCOS DINÂMICOS-->
+    {% include "partials/page-header.html" %}
+    {% if places.length > 0 %}
+        <main>
+            <h4>
+                <strong>{{ places.length }} pontos</strong>
+                encontrados
+            </h4>
+         </main>
+
+    {%else%}
+
+
+    {% endif %}
+
+
+    <div class="cards">
+
+        {% if places.length > 0 %}
+            {% for place in places %}
+                <div class="card">
+                    <img src="{{ place.image }}" alt="{{ place.name }}">
+                    <h1>{{ place.name }}</h1>
+                    <h3>{{ place.items }}</h3>
+                    <p>{{ place.city }}, {{ place.state }}<br/>
+                        {{ place.adress }}<br/>
+                        {{ place.adress2 }}
+                    </p>
+                </div>
+
+            {% endfor %}
+
+        {%else%}
+            <div class="notfound">
+                <h1>Pontos de coletas não encontrados</h1>
+                <img src="imagens/icones/smile-triste4.png" alt="">
+            </div>
+        
+        {% endif %}
+        
+
+
+        
+
+  
+
+    </div>
+
+{% endblock content %}
