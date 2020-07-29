@@ -12,7 +12,7 @@ A ídeia do projeto é que as empresas/ONG's/Cooperativas que realizem a coleta 
 ![Home-Search](screenshots/home-search.png "Home-Search")
 ![Home-Search-Responsive](screenshots/home-search-responsive.png "Home-Search-Responsive")
 ![Ceate-Point](screenshots/creat-point.png "Create-Point")
-![Creat-Point-responsive](screenshots/creat-point-responsive.png "Create-Point-Responsive")
+![Creat-Point-responsive](screenshots/create-point-responsive.png "Create-Point-Responsive")
 ![Search](screenshots/search.png "Search")
 ![Search-Responsive](screenshots/search-responsive.png "Search-Responsive")
 
